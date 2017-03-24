@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Clase02</string>
+    <string name="saludo">Hello World!</string>
+    <string name="saludo_alt">¡Hola Mundo!</string>
+    <string name="boton1">Boton 1</string>
+    <string name="boton2">Boton 2</string>
+    <string name="boton3">Boton 3</string>
+</resources>
