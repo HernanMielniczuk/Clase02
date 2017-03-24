@@ -36,6 +36,7 @@
                 android:text="@string/saludo" />
         </LinearLayout>
     <Button
+        android:id="@+id/id_boton2"
         android:text="@string/boton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />

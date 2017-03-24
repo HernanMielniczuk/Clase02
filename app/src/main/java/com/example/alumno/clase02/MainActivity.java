@@ -12,10 +12,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         super.setContentView(R.layout.activity_main);
+
         TextView tv = (TextView) super.findViewById(R.id.id_saludo);
         tv.setText(R.string.saludo_alt);
-
-
 
         Button btn1 = (Button) findViewById(R.id.id_boton1);
 
@@ -23,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
         View.OnClickListener listener = new MyListener();
         btn1.setOnClickListener(listener);
 
+        Button btn2 = (Button) findViewById(R.id.id_boton2);
+        btn2.setOnClickListener(listener);
     }
 
 }
